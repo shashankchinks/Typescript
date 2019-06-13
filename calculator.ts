@@ -24,6 +24,35 @@
             break;
     }
 
+    enum Operator{
+        addition = 100,
+        substraction = 200,
+        multiple = 300,
+        division = 400
+    }
+
+    function calculator(method:Operator){
+        switch (method) {
+            case Operator.addition:
+                
+                break;
+
+            case Operator.substraction:
+                break;
+
+            case Operator.multiple:
+                break;
+
+            case Operator.division:
+                break;
+        
+            default:
+                break;
+        }
+    }
+
+    calculator(Operator.addition);
+
     
 }
 
